@@ -1,0 +1,61 @@
+.tvl-clients-scroll-down-section{
+    width: 100% ;
+    padding: 24px 0px ;
+    margin-bottom: 40px;
+    background-color: black;
+    display: flex ;
+    flex-direction: column;
+}
+.tvl-clients-scroll-down-wrapper{
+    width: 85% ;
+    align-self: center;
+    display: flex ;
+    flex-direction: column;
+}
+.tvl-clients-scroll-down-text{
+    max-width: 540px ;
+    font-size: 15px ;
+    font-weight: 400 ;
+    font-family: var(--font-family);
+    color: white ;
+    text-align: center;
+    align-self: center;
+    padding-bottom: 16px;
+    line-height: 1.52;
+}
+.tvl-clients-scroll-down-icon-container{
+    width: 30px ;
+    height: 30px ;
+    align-self: center;
+    border: 2px solid white ;
+    border-radius: 100% ;
+    display: flex ;
+    flex-direction: row;
+    justify-items: center;
+    box-sizing: border-box;
+}
+.tvl-clients-scroll-down-icon{
+    width: 100% ;
+    text-align: center;
+    align-self: center;
+    color: white ;
+    transform: translateY(3px);
+
+    .material-symbols-outlined{
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width:720px) {
+    .tvl-clients-scroll-down-text{
+        font-size: 17px ;
+        font-weight: 300;
+        padding-bottom: 24px ;
+    }
+}
+
+@media screen and (min-width:1100px) {
+    .tvl-clients-scroll-down-text{
+        font-size: 19px ;
+    }
+}

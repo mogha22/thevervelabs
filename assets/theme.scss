@@ -1,0 +1,35 @@
+*{
+    margin: 0px ;
+    padding: 0px ;
+
+    -webkit-user-select: none;
+    -ms-user-select: none ;
+    user-select: none ;
+
+    --font-family: 'Roboto', sans-serif ;
+    --blur: 100px ;
+    --blur-min: 50px ;
+    --scroll-y-offset: 20px ;
+    --scroll-transition: 0.8s all ease-in-out ;
+
+}
+html, body{
+    width: 100% ;
+    overflow-x: hidden;
+}
+
+.tvl-main{
+    width: 100% ;
+    height: auto ;
+    display: flex;
+    flex-direction: column;
+}
+
+.slide-enter-active{
+    opacity: 1;
+    transition: 0.2s all ease-in-out;
+}
+.slide-leave-active{
+    opacity: 0;
+    transition: 0.2s all ease-in-out;
+}
